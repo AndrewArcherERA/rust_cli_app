@@ -1,0 +1,1 @@
+/home/andrew/Repos/courses/Rust/LestGetRusty_Course/exercies/exercises_cli/target/debug/exercises_cli: /home/andrew/Repos/courses/Rust/LestGetRusty_Course/exercies/exercises_cli/src/fahrenheit_celcius.rs /home/andrew/Repos/courses/Rust/LestGetRusty_Course/exercies/exercises_cli/src/main.rs

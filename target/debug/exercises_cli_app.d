@@ -1,0 +1,1 @@
+/home/andrew/Repos/personal/rust_cli_app/target/debug/exercises_cli_app: /home/andrew/Repos/personal/rust_cli_app/src/fahrenheit_celcius.rs /home/andrew/Repos/personal/rust_cli_app/src/main.rs /home/andrew/Repos/personal/rust_cli_app/src/nth_fib.rs /home/andrew/Repos/personal/rust_cli_app/src/twelve_days_of_xmas.rs
