@@ -1,6 +1,7 @@
 mod fahrenheit_celcius;
 mod nth_fib;
 mod twelve_days_of_xmas;
+mod get_area;
 
 use dialoguer::Select;
 
@@ -11,6 +12,7 @@ fn main() {
             "Convert tempeture to Fahrenheit or Celcius",
             "Get the nth number in the Fibonocci Sequence",
             "Print The Twelve Days Of Christmas Lyrics",
+            "Calculate the area of a rectangle",
             "Quit"
         ];
         let options_selection = Select::new()
@@ -29,6 +31,10 @@ fn main() {
         }
         else if options_selection == 2 {
             twelve_days_of_xmas::run_cli();
+            println!("");
+        }
+        else if options_selection == 3 {
+            get_area::run_cli();
             println!("");
         }
         else {
