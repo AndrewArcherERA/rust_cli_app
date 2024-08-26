@@ -1,10 +1,5 @@
-mod fahrenheit_celcius;
-mod nth_fib;
-mod twelve_days_of_xmas;
-mod get_area;
-
 use dialoguer::Select;
-
+mod functions;
 fn main() {
     println!("");
     loop {
@@ -22,19 +17,19 @@ fn main() {
             .unwrap();
 
         if options_selection == 0 {
-            fahrenheit_celcius::run_cli();
+            functions::fahrenheit_celcius_cli();
             println!("");
         }
         else if options_selection == 1 {
-            nth_fib::run_cli();
+            functions::nth_fib_cli();
             println!("");
         }
         else if options_selection == 2 {
-            twelve_days_of_xmas::run_cli();
+            functions::twelve_days_of_xmas_cli();
             println!("");
         }
         else if options_selection == 3 {
-            get_area::run_cli();
+            functions::get_area_cli();
             println!("");
         }
         else {
